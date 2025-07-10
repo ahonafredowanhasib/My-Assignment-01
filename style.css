@@ -191,3 +191,32 @@ body{
     font-weight: normal;
     font-size: 15px;
 }
+/* ready to focus */
+.ready-to-focus{
+    text-align: center;
+    margin: 146px 150px 0 150px;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    width: 1140px;
+    height: 697px;
+}
+.title-ready{
+    color:#000000 ;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 71px 312px 0 312px;
+}
+.ready-des{
+    color: #757575;
+    font-weight: bold;
+    margin: 20px 15px 0 15px;
+}
+.ready-to-focus button{
+    margin: 20px 146px 0 146px;
+}
+.ready-to-focus img{
+    border: none;
+    border-radius: 48px;
+    margin: 20px 150px 71px 150px;
+}
