@@ -26,13 +26,14 @@ body{
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* nav */
 .nav{
-    width: 1440px;
-    height: 698px;
-    padding-bottom: 152px;
+   width: 1440px;
+    height: 698px; 
 }
 .nav-bg{
     background-image: url('./images/Hero-bg.png');
+
 }
 .text-center{
     text-align: center;
@@ -55,7 +56,7 @@ body{
     border-radius: 10px;
 }
 .header-texts{
-    margin: 309px 268px 152px 268px;
+    margin: 158px 268px 152px 268px;
     text-align: center;
 }
 .header-text{
@@ -67,6 +68,7 @@ body{
     list-style: none;
     gap: 36px;
 }
+/* actioin */
 .actions{
     margin: 116px 160px 0 141px;
     display: flex;
@@ -91,7 +93,7 @@ body{
     border-radius: 48px;
 }
 
-
+/* productiveti */
 .pro{
     border: none;
     border-radius: 24px;
@@ -121,4 +123,71 @@ body{
     font-size: 20px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* what */
+.what{
+    margin: 137px 150px 0 150px;
+    width: 1140px;
+    height: 342px;
+}
+.what h1{
+    margin: 0 0 50px 0;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+.wh{
+    
+    width: 367px;
+    height: 244px;
+    display: flex;
+    gap: 20px;
+}
+.box{
+    border: 1px solid lightgrey;
+    border-radius: 14px;
+}
+.stars{
+    display: flex;
+    gap: 4px;
+    list-style: none;
+    margin: 24px 227px 24px 24px;
+}
+.box{
+    list-style: none;
+}
+.box-text .into{
+    margin: 24px 24px 0 24px;
+    text-align: justify;
+}
+.what h4{
+    color: #1E1E1E;
+    font-weight: bold;
+    font-size: 30px;
+}
+.what h6{
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: 400;
+}
+.person{
+    display: flex;
+    gap: 12px;
+    margin: 24px;
+}
+.person img{
+     border-radius: 50%;
+    object-fit: cover;
+    border: none;
+}
+.person-des{
+    color: #757575;
+    font-weight: bold;
+    font-size: 15px;
+}
+.person-des span{
+    color: #757575;
+    font-weight: normal;
+    font-size: 15px;
 }
