@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: white;
+    background-color: #F0F8FF;
    
 }
 .raleway{
@@ -98,7 +98,7 @@ body{
     border: none;
     border-radius: 24px;
     margin: 116px 160px 0 140px;
-    background-color: #67a9ac;
+    background-color: #E6E6FA;
     padding: 80px 50px;
 }
 .pro-hd{
@@ -197,7 +197,7 @@ body{
     margin: 146px 150px 0 150px;
     border: 1px solid aliceblue;
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: white;
     width: 1140px;
     height: 697px;
 }
@@ -219,4 +219,87 @@ body{
     border: none;
     border-radius: 48px;
     margin: 20px 150px 71px 150px;
+}
+/* get in  */
+.get-in{
+    width: 1140px;
+    height: 632px;
+    margin: 94px 150px 0 150px;
+    padding: 71px;
+    display: flex;
+    gap: 115px;
+}
+.title-get{
+    height: 232px;
+    width: 528px;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 200px 0 0 0;
+
+}
+.reg-form{
+    margin: 71px 0 0 0;
+    width: 497px;
+    height: 490px;
+    
+}
+.frm{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.frm input{
+  border: 1px solid #e0e0e0;
+  border-radius: 14px;
+  background-color: #ffffff;
+  font-size: 10px;
+  outline: none;
+  transition: 0.3s ease;
+  height: 60px;
+  width: 400px;
+  padding: 5px;
+}
+.frm textarea{
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s ease;
+  height:135px;
+  width: 410px;
+}
+.label{
+    font-size: 18px;
+    font-weight: 500;
+}
+.lable-inpt{
+    font-weight: 500;
+    font-size: 30px;
+}
+.label-btn{
+    width: 410px;
+    color: #ffffff;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+}
+.label-text{
+    margin: 10px 0 0 0;
+}
+input{
+    font-size: medium;
+}
+::placeholder{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* footer */
+footer{
+    
+    background-color: white;
 }
