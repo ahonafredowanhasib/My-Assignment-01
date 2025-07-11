@@ -277,9 +277,15 @@ body{
     font-size: 18px;
     font-weight: 500;
 }
-.lable-inpt{
-    font-weight: 500;
-    font-size: 30px;
+.name .lable-inpt{
+    margin: 5px 0 0 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+.Email .lable-inpt{
+    margin: 5px 0 0 0;
+    font-weight: 400;
+    font-size: 20px;
 }
 .label-btn{
     
@@ -297,8 +303,10 @@ body{
      background-color: white;
     color: #4338ca;
 }
-.label-text{
-    margin: 10px 0 0 0;
+.Message .label-text{
+    margin: 5px 0 0 0;
+    font-weight: 400;
+    font-size: 20px;
 }
 input{
     font-size: medium;
@@ -316,6 +324,7 @@ footer{
     
 }
 .foot{
+    margin-top: 104px 0 0 0 ;
     text-align: center;
     padding: auto;
 }
